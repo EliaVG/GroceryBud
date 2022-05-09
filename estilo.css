@@ -1,0 +1,70 @@
+*, *::after, *::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --azul: rgba(42, 229, 216, 0.918);
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0.5rem;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+
+    border: 1px solid black;
+    border-radius: 3%;
+    width: 30rem;
+    padding: 2rem 0;
+}
+
+h1{
+    margin-bottom: 1rem;
+
+    color: var(--azul);
+}
+
+#buscador{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+#borrar_todo{
+    margin-top: 1rem;
+    padding: 0 1rem;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item{
+    display: flex;
+    width: 25rem;
+    margin-bottom: 1rem;
+
+    justify-content: space-between;
+}
+
+.item button{
+    background-color: transparent;
+    border: none;
+}
+
+img{
+    height: 1rem;
+}
